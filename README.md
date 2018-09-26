@@ -4,9 +4,9 @@ Feel Free to use or Distrubute these to learn/teach others ARM if you think they
 Some things taken from http://www.science.smith.edu/dftwiki/index.php/Tutorial:_Assembly_Language_with_the_Raspberry_Pi
 
 ## Compiler/Builder Cheatsheet
-\*.c=C code file, not assembly but can be converted to assembly to study
-\*.s=Assembly code file
-\*.o=Object file
+\*.c=C code file, not assembly but can be converted to assembly to study<br>
+\*.s=Assembly code file<br>
+\*.o=Object file<br>
 Convert C code to assembly code.  Exclude -fverbose-asm to exclude comments in compiled file
 > gcc <input c file> -S -fverbose-asm -o <output assembly file>
   
